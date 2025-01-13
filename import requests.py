@@ -5,7 +5,7 @@ from azure.storage.blob import BlobServiceClient
 # Basecamp API credentials
 basecamp_token = "YOUR_BASECAMP_TOKEN"
 basecamp_project_id = "YOUR_BASECAMP_PROJECT_ID"
-basecamp_upload_url = f"https://3.basecampapi.com/{basecamp_project_id}/buckets/{basecamp_bucket_id}/uploads.json"
+basecamp_upload_url = f"https://3.basecampapi.com/xxxxxxx/uploads.json"
 
 # Azure Blob Storage credentials
 azure_storage_connection_string = "YOUR_AZURE_STORAGE_CONNECTION_STRING"
