@@ -5,10 +5,10 @@ import glob
 from datetime import datetime
 
 # API endpoint URL with query string parameter
-url = 'https://api.retool.com/v1/workflows/1ce3b659-ec4a-4596-a4a1-95fa5ce2517d/startTrigger?workflowApiKey=retool_wk_c53e4448bd9a460fa3130f234b01ab15'
+url = 'https://api.<xxx>'
 
 # Directory containing the CSV files
-csv_directory = '/lakehouse/default/Files/Filtered_Csv'
+csv_directory = '<xxxCsv>'
 
 # Function to fetch CSV files from the given directory
 def fetch_csv_files(directory):
