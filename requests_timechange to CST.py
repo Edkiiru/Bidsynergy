@@ -6,10 +6,10 @@ from datetime import datetime
 import pytz
 
 # API endpoint URL with query string parameter
-url = 'https://api.retool.com/<your API>'
+url = 'https://api<your API>'
 
 # Directory containing the CSV files
-csv_directory = '/lakehouse/default/Files/Filtered_Csv'
+csv_directory = '<xxxCsv>'
 
 # Function to fetch CSV files from the given directory
 def fetch_csv_files(directory):
